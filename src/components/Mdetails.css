@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+.MugsShop{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -40px;
+}
+.MugsShop .filter{
+    /* border: 2px solid black; */
+    width: 900px;
+    margin-left: 20px;
+    margin-bottom: 150px;
+}
+.MugsShop .filter .filter-head{   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.MugsShop .filter hr{
+    border: 1px solid black;
+}
+.MugsShop .filter .head-form{
+    margin-left: -20px;
+}
+.MugsShop .filter form{
+    margin-left: 50px;
+    font-size: 17px;
+}
+.MugsShop .filter input.largerchk{
+    margin-bottom: 15px;
+    width: 15px;
+    height: 15px;
+}
+.MugsShop .filter form .filter-btn{
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: #ec4a92;
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* margin-bottom: 550px; */
+    cursor: pointer;
+}
+.MugsShop .mugs-content{
+    /* border: 2px solid black; */
+    margin-left: 80px;
+}
+.mugs-content .mugs-head .mugsCollection-head{
+    text-align: center;
+}
+.mugs-content p{
+    margin-top: -15px;
+    text-align: justify;
+    font-size: 14px;
+}
+.mugs-content .mugs-img{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mugs-content .img-container{
+    /* border: 2px solid black; */
+    width: 250px;
+    height: 470px;
+    /* margin-left: 20px; */
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.mugs-content .img-container .img{
+    /* border: 2px solid black; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.mugs-content .img-container .content{
+    width: 200px;
+    height: 140px;
+    margin-left: 25px;
+    /* border: 2px solid black; */
+}
+.mugs-content .img-container .size-container{
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+    justify-content: flex-start;
+}
+.mugs-content .img-container .size-container .s1{
+    cursor: pointer;
+    border: 2px solid #e2e3e5;
+    padding: 8px;
+}
+.MugsShop .content .grey-head{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #6b7280;
+}
+.MugsShop .content .para-head{
+    margin-top: -10px;
+    font-weight: bold;
+}
+.MugsShop .content .amt-head{
+    margin-top: -13px;
+}
+.MugsShop .amt-head .head6{
+    color: #6b7280;
+    font-weight: bold;
+}
+.mugspagination{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+.mugspagination .prevbtn,.mugspagination .nextbtn{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+    background-color: #e74c92;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.mugspagination .prevbtn:not(.disabled),
+.mugspagination .nextbtn:not(.disabled) {
+    background-color: #e74c92;
+}
+/* Styles for disabled buttons */
+.mugspagination .prevbtn.disabled,
+.mugspagination .nextbtn.disabled {
+    background-color: #ccc; 
+    cursor: not-allowed;
+}
+.mugs-content .mugsnomatch{
+    margin-top: 20px;
+    margin-left: 220px;
+    color: #e74c92;
+    font-size: 25px;
+}
+.mugsnofound{
+    margin-top: 90px;
+    margin-left: 420px;
+}
+.mdetails{
+    /* border: 2px solid black;     */
+    /* height: 100vh; */
+    margin-top: -0px;
+    margin-bottom: 20px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+.mdetails .mdetails-contain1{
+    /* border: 2px solid black; */
+    width: 140px;
+}
+.mdetails .mdetails-contain1 .small-img{
+    border: 2px solid #e73485;
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mdetails .mdetails-contain1 .small-img img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    cursor: pointer;
+}
+.mdetails .mdetails-contain2{
+    /* border: 2px solid black; */
+    width: 480px;
+    margin-left: 5px;  
+}
+.mdetails .mdetails-contain3{
+    margin-left: 10px;
+    margin-right: 20px;
+    /* border: 2px solid black; */
+    width: 900px;
+}
+.mdetails .mdetails-contain3 .brand{
+    margin-top: -2px;
+    margin-left: 30px;
+    color: grey;
+}
+.mdetails .mdetails-contain3 .product-desc{
+   display: flex;
+   align-items: center;
+   margin-top: 30px;
+}
+.mdetails .mdetails-contain3 .product-desc .coupon{ 
+    color: #e73485;
+}
+.mdetails .mdetails-contain3 h1{
+    margin-top: -10px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.mdetails .mdetails-contain3 .product-desc{
+    margin-left: 30px;
+    text-align: justify;
+}
+.mdetails .mdetails-contain3 h3{
+    margin-left: 30px;
+    margin-top: -10px;
+}
+.mdetails-contain3 .size-container{
+    display: flex;
+    align-items: center;
+    /* margin-top: -5px; */
+    margin-left: 20px;
+    /* justify-content: space-around; */
+}
+.mdetails-contain3 .size-container .s1{
+    margin-left: 20px;
+    cursor: pointer;
+    border: 2px solid #e2e3e5;
+    padding: 8px;
+}
+.mdetails-contain3 .amt-head{
+    margin-left: 20px;
+    font-size: 35px;
+}
+.mdetails-contain3 .freeship{
+    font-size: 15px;
+}
+.mugspincode-contain{
+    margin-left: 20px;
+}
+.mugspincode-contain .pincode{
+    width: 180px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 15px;
+    padding-left: 20px;
+    border: none;
+    border: 2px solid grey;
+}
+.mugspincode-contain .pincode:focus{
+    border-color: #db2777; 
+    outline: none;
+}
+.mugspincode-contain .pincode::placeholder {
+    color:  #9fa7b9;
+    font-family: 'Poppins', sans-serif;
+}
+.mugspincode-contain .checkbtn{
+    width: 80px;
+    height: 33px;
+    border-radius: 50px;
+    font-size: 15px;
+    border: none;
+    background-color: #db2777;
+    color: white;
+    cursor: pointer;
+}
+.mugsavailability-msg{
+    /* border: 2px solid black; */
+    margin-left: 25px;
+    width: fit-content;
+    color: rgb(32, 210, 32);
+    font-size: 14px;
+    font-weight: bold;
+}
+.mugsshopbtn{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+.mugsshopbtn .shopbtn-BUY{
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: #e73485;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.mugsshopbtn .shopbtn-CART{
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: #e73485;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

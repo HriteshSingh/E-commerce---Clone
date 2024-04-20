@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+.CapsShop{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -40px;
+}
+.CapsShop .filter{
+    /* border: 2px solid black; */
+    width: 900px;
+    margin-left: 20px;
+    margin-bottom: 150px;
+}
+.CapsShop .filter .filter-head{   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.CapsShop .filter hr{
+    border: 1px solid black;
+}
+.CapsShop .filter .head-form{
+    margin-left: -20px;
+}
+.CapsShop .filter form{
+    margin-left: 50px;
+    font-size: 17px;
+}
+.CapsShop .filter input.largerchk{
+    margin-bottom: 15px;
+    width: 15px;
+    height: 15px;
+}
+.CapsShop .filter form .filter-btn{
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: #ec4a92;
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* margin-bottom: 550px; */
+    cursor: pointer;
+}
+.CapsShop .caps-content{
+    /* border: 2px solid black; */
+    margin-left: 80px;
+}
+.caps-content .caps-head .capsCollection-head{
+    text-align: center;
+}
+.caps-content p{
+    margin-top: -15px;
+    text-align: justify;
+    font-size: 14px;
+}
+.caps-content .caps-img{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.caps-content .img-container{
+    /* border: 2px solid black; */
+    width: 250px;
+    height: 470px;
+    /* margin-left: 20px; */
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.caps-content .img-container .img{
+    /* border: 2px solid black; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.caps-content .img-container .content{
+    width: 200px;
+    height: 140px;
+    margin-left: 25px;
+    /* border: 2px solid black; */
+}
+.caps-content .img-container .size-container{
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+    justify-content: flex-start;
+}
+.caps-content .img-container .size-container .s1{
+    cursor: pointer;
+    border: 2px solid #e2e3e5;
+    padding: 8px;
+}
+.CapsShop .content .grey-head{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #6b7280;
+}
+.CapsShop .content .para-head{
+    margin-top: -10px;
+    font-weight: bold;
+}
+.CapsShop .content .amt-head{
+    margin-top: -13px;
+}
+.CapsShop .amt-head .head6{
+    color: #6b7280;
+    font-weight: bold;
+}
+.capspagination{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+.capspagination .prevbtn,.capspagination .nextbtn{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+    background-color: #e74c92;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.capspagination .prevbtn:not(.disabled),
+.capspagination .nextbtn:not(.disabled) {
+    background-color: #e74c92;
+}
+/* Styles for disabled buttons */
+.capspagination .prevbtn.disabled,
+.capspagination .nextbtn.disabled {
+    background-color: #ccc; 
+    cursor: not-allowed;
+}
+.caps-content .capsnomatch{
+    margin-top: 20px;
+    margin-left: 220px;
+    color: #e74c92;
+    font-size: 25px;
+}
+.capsnofound{
+    margin-top: 90px;
+    margin-left: 420px;
+}
+.cdetails{
+    /* border: 2px solid black;     */
+    /* height: 100vh; */
+    margin-top: -0px;
+    margin-bottom: 20px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+.cdetails .cdetails-contain1{
+    /* border: 2px solid black; */
+    width: 140px;
+}
+.cdetails .cdetails-contain1 .small-img{
+    border: 2px solid #e73485;
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cdetails .cdetails-contain1 .small-img img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    cursor: pointer;
+}
+.cdetails .cdetails-contain2{
+    /* border: 2px solid black; */
+    width: 480px;
+    margin-left: 5px;  
+}
+.cdetails .cdetails-contain3{
+    margin-left: 10px;
+    margin-right: 20px;
+    /* border: 2px solid black; */
+    width: 900px;
+}
+.cdetails .cdetails-contain3 .brand{
+    margin-top: -2px;
+    margin-left: 30px;
+    color: grey;
+}
+.cdetails .cdetails-contain3 .product-desc{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+ }
+ .cdetails .cdetails-contain3 .product-desc .coupon{ 
+     color: #e73485;
+ }
+ .cdetails .cdetails-contain3 h1{
+     margin-top: -10px;
+     margin-left: 30px;
+     margin-right: 20px;
+ }
+ .cdetails .cdetails-contain3 .product-desc{
+     margin-left: 30px;
+     text-align: justify;
+ }
+ .cdetails .cdetails-contain3 h3{
+     margin-left: 30px;
+     margin-top: -10px;
+ }
+ .cdetails-contain3 .size-container{
+    display: flex;
+    align-items: center;
+    /* margin-top: -5px; */
+    margin-left: 20px;
+    /* justify-content: space-around; */
+}
+.cdetails-contain3 .size-container .s1{
+    margin-left: 20px;
+    cursor: pointer;
+    border: 2px solid #e2e3e5;
+    padding: 8px;
+}
+.cdetails-contain3 .amt-head{
+    margin-left: 20px;
+    font-size: 35px;
+}
+.cdetails-contain3 .freeship{
+    font-size: 15px;
+}
+.capspincode-contain{
+    margin-left: 20px;
+}
+.capspincode-contain .pincode{
+    width: 180px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 15px;
+    padding-left: 20px;
+    border: none;
+    border: 2px solid grey;
+}
+.capspincode-contain .pincode:focus{
+    border-color: #db2777; 
+    outline: none;
+}
+.capspincode-contain .pincode::placeholder {
+    color:  #9fa7b9;
+    font-family: 'Poppins', sans-serif;
+}
+.capspincode-contain .checkbtn{
+    width: 80px;
+    height: 33px;
+    border-radius: 50px;
+    font-size: 15px;
+    border: none;
+    background-color: #db2777;
+    color: white;
+    cursor: pointer;
+}
+.capsavailability-msg{
+    /* border: 2px solid black; */
+    margin-left: 25px;
+    width: fit-content;
+    color: rgb(32, 210, 32);
+    font-size: 14px;
+    font-weight: bold;
+}
+.capsshopbtn{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+.capsshopbtn .shopbtn-BUY{
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: #e73485;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.capsshopbtn .shopbtn-CART{
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: #e73485;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
